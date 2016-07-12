@@ -10,6 +10,7 @@ Including but not limited to:
 * zsh-git-prompt compiled with the performant Haskell reimplementation
 * zsh-syntax-highlighting
 * My fast fork of archey-osx
+* scmpuff (the minimalist SCM breeze)
 
 ## Install
 
