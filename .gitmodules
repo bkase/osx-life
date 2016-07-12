@@ -1,0 +1,6 @@
+[submodule "nixos-config"]
+	path = nixos-config
+	url = git@github.com:bkase/nixos-config.git
+[submodule "nixpkgs"]
+	path = nixpkgs
+	url = git@github.com:bkase/nixpkgs.git
