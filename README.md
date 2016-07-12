@@ -2,6 +2,17 @@
 
 This is my life as a nix shell definition
 
+## Perks
+
+Including but not limited to:
+
+* YouCompleteMe-ified vim (plus a bunch of other plugins I use)
+* zsh-git-prompt compiled with the performant Haskell reimplementation
+* zsh-syntax-highlighting
+* My fast fork of archey-osx
+
+## Install
+
 Stick this in your ~/.profile to have your life in every virtual terminal:
 
 ```bash
