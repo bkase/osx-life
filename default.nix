@@ -47,6 +47,8 @@ stdenv.mkDerivation rec {
 
   buildInputs = [
     myVim
+    arcanist
+
     git
     fastarcheyosx
     zsh
@@ -54,5 +56,8 @@ stdenv.mkDerivation rec {
     zshGitPrompt
     zshSyntaxHighlighting
     nix-zsh-completions
+
+    mosh
+    wget
   ];
 }
