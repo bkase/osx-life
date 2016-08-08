@@ -13,18 +13,25 @@ let
     vam.pluginDictionaries = [
       { names = [
         "vim-addon-nix"
-        "ctrlp"
         "youcompleteme"
         "vim-airline"
         "vim-airline-themes"
         "surround"
         "Solarized"
         "The_NERD_Commenter"
+        "fzf-vim"
+        "fzfHack"
+        "unite-vim"
+        "neomru"
         #"rust-vim"
 
+        "vim-flow"
+        "vim-javascript"
         #"psc-ide-vim"
         #"purescript-vim"
-        "syntastic"
+        "vim-jinja"
+
+        "gitgutter"
 
         "neomake"
         "vimproc"
@@ -40,6 +47,7 @@ let
   };
 
   myVim = pkgs.vim_configurable.customize { name = "vim"; inherit vimrcConfig; };
+  archeyProg = if stdenv.isDarwin then fastarcheyosx else screenfetch;
 in
 stdenv.mkDerivation rec {
   name = "life";
@@ -49,13 +57,17 @@ stdenv.mkDerivation rec {
     myVim
     arcanist
 
+    ruby
+
     git
-    fastarcheyosx
+    archeyProg
+    ag
     zsh
     scmpuff
     zshGitPrompt
     zshSyntaxHighlighting
     nix-zsh-completions
+    fasd
 
     mosh
     wget
