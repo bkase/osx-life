@@ -25,13 +25,19 @@ let
         "neomru"
         #"rust-vim"
 
+        "vim-elixir"
+
         "vim-flow"
         "vim-javascript"
+        "vim-jsx"
+        "emmet-vim"
         #"psc-ide-vim"
         #"purescript-vim"
         "vim-jinja"
 
         "gitgutter"
+        "fugitive"
+        "vim-markdown"
 
         "neomake"
         "vimproc"
@@ -58,6 +64,7 @@ stdenv.mkDerivation rec {
     arcanist
 
     ruby
+    elixir
 
     git
     archeyProg
