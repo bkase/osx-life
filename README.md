@@ -1,5 +1,7 @@
 # OSX life (a nix-shell definition)
 
+# DEPRECATED: see [bkase/life](bkase/life) for my new environment
+
 This is my life as a nix shell definition
 
 ## Perks
